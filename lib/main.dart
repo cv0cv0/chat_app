@@ -116,7 +116,7 @@ class _ChatState extends State<Chat> with TickerProviderStateMixin {
       text: text,
       animationController: AnimationController(
         vsync: this,
-        duration: Duration(milliseconds: 800),
+        duration: Duration(milliseconds: 400),
       ),
     );
 
