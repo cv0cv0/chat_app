@@ -77,7 +77,7 @@ class _ChatState extends State<Chat> with TickerProviderStateMixin {
                   onChanged: (text) => setState(() {
                         isWriting = text.length > 0;
                       }),
-                  onSubmitted: submitMsg,
+                  // onSubmitted: submitMsg,
                   decoration: InputDecoration.collapsed(
                     hintText: 'Enter some text to send a message',
                   ),
@@ -101,13 +101,13 @@ class _ChatState extends State<Chat> with TickerProviderStateMixin {
               ),
             ],
           ),
-          decoration: Theme.of(context).platform == TargetPlatform.iOS
-              ? BoxDecoration(
-                  border: Border(
-                    top: BorderSide(color: Colors.brown),
-                  ),
-                )
-              : null,
+          // decoration: Theme.of(context).platform == TargetPlatform.iOS
+          //     ? BoxDecoration(
+          //         border: Border(
+          //           top: BorderSide(color: Colors.grey, width: 0.6),
+          //         ),
+          //       )
+          //     : null,
         ),
       );
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 final iosTheme = ThemeData(
-  primarySwatch: Colors.red,
-  primaryColor: Colors.grey,
+  primarySwatch: Colors.grey,
+  primaryColor: Colors.blueGrey,
   primaryColorBrightness: Brightness.dark,
 );
 
