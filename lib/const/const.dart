@@ -1,0 +1,1 @@
+const defaultUsername = 'John Doe';
